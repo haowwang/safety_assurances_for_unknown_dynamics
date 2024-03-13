@@ -1,0 +1,16 @@
+03/12/2024 17:51:03
+experiment_name = INV_PEND_DATA1H
+gpu = "0"
+if_gpu = 'True'
+num_epochs = 128
+lr = 2e-4
+num_models = 5
+num_layers = 3
+num_neurons_per_layer = 256
+batch_size = 256
+train_data_mode = "fixed"
+weight_decay = 0
+l1_lambda = 0
+batch_norm = 'False'
+dataset_name = 'inv_pend_data1h_dyn_dataset'
+log_to_wandb = 'False'
