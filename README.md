@@ -1,6 +1,8 @@
 # Providing Safety Assurances for Systems with Unknown Dynamics
 arxiv link: https://arxiv.org/abs/2403.05771
 
+TurtleBot experiment supplemental video link: https://youtu.be/D6ZxZG0rQ_U
+
 Important Note: Please remember to add *all* the files in this repository to your MATLAB path. 
 
 ## Inverted Pendulum Experiment
@@ -23,3 +25,6 @@ Important Note: Please remember to add *all* the files in this repository to you
 - To compute the BRT (after generating the ensemble forward results)
     - Run ```inv_pend_brt_comp_script.m``` in MATLAB. Make sure the dataset name and forward result file name are correct within the script.
     - You can save the figure and use ```brt_plotting.m``` to compare BRTs of different dynamics models, model uncertainty level, etc. 
+
+
+Last updated 3/14/24
